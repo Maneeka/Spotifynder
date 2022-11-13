@@ -1,0 +1,3 @@
+[submodule "Spotifynder"]
+    path = Spotifynder
+    url = https://github.com/massbchou/Spotifynder.git
