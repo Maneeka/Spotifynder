@@ -42,6 +42,7 @@ function getData(songName){
 function getURIs(songNames){
     console.log("song Names we get are :")
     console.log(songNames)
+    songNames = songNames.slice(0, 50)
     result_uris = []
     promisesShit = []
 
@@ -123,7 +124,7 @@ async function createPlaylist(userId){
             'Content-Length': 92
         },
         body: JSON.stringify({
-            "name": "Spotifynder 2",
+            "name": "Final",
           })
     })
 
